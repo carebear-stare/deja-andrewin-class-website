@@ -1,5 +1,98 @@
 body {
-    background-color:ivory;
-    color:palevioletred;
-    font-family: Tahoma, sans-serif;
+    background-color:snow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8e3763;
+}
+h1 {
+    font-size: 66.67px;
+    font-family: Georgia, serif;
+    text-align:center;
+}
+h2 {
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+img {
+  display:block;
+  margin:auto;
+  border: 10px dotted #8e3763;
+  border-radius: 35px;
+  padding: 15px;
+}
+p {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+    line-height: 1.5;
+}
+ul {
+    font-size: 16px;
+    list-style-position: inside;
+    text-align: left;
+    line-height: 1.5;
+    color: #8e3763;
+    font-style:italic;
+}
+blockquote {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.5;
+    color: #ffd4ef;
+    font-style:italic;
+    text-align: right;
+    border-radius: 10px;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #8e3763;
+    box-sizing: content-box;
+}
+.btn{
+    background-color: #8e3763;
+    color: #ffd4ef;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: auto 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+.btn:hover {
+background-color: #ffd4ef;
+    color: #8e3763;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: auto 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.1);
+}
+    a {
+        color: #8e3763;
+        text-decoration: none;
+        transition: all 0.3s;
+        
+ }
+a:hover {
+    background-color: #8e3763;
+    font-size: 20px;
+    color: #ffd4ef;
+    margin: 10px;
+    border:none;
+    padding: 5px;
+    border-radius: 15px;
+    transform: scale(1.1);
 }

@@ -79,10 +79,10 @@ background-color: snow;
     font-family: Arial, Helvetica, sans-serif;
     transform: scale(1.1);
 }
-    a {
-        color: #8e3763;
-        text-decoration: none;
-        transition: all 0.3s;
+a {
+    color: #8e3763;
+    text-decoration: none;
+    transition: all 0.3s;
         
 }
 a:hover {
@@ -124,4 +124,29 @@ div {
     border-radius: 35px;
     margin-left: 150px;
     margin-right: 150px;
+}
+.btn-2{
+    background-color: #8e3763;
+    color: #ffd4ef;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: auto 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+.btn-2:hover {
+background-color: snow;
+    color: #8e3763;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.1);
 }

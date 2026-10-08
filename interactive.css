@@ -1,0 +1,91 @@
+body {
+    background-color: #F8FFF7;
+    font-family: Arial, Helvetica, sans-serif
+}
+.page {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 0.5fr 5fr 0.25fr 1fr;
+    gap: 10px;
+    height: 100vh;
+}
+.header {
+    background-color: #8e3763;
+    grid-column: span 3;
+    grid-row: 1/2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.top-text {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+.image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.button-container {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer {
+    background-color:#634555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: span 3;
+    grid-row: 5/6;
+    border-radius: 15px;
+}
+h1 {
+    color:#F8FFF7;
+    text-align: center;
+    font-size: 42px;
+    font-family: Georgia, serif;
+    text-align:center;
+    letter-spacing: 2px;
+}
+h2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color:#381F5C;
+    text-align: center;
+}
+#button {
+    background-color: #381F5C;
+    color:#F8FFF7;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
+    border: none;
+    text-transform: uppercase;
+}
+#image {
+    width: 275px;
+    height: 500px;
+    border-radius: 15px;
+}
+a {
+    color: #F8FFF7;
+    text-align:center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}

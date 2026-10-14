@@ -19,7 +19,7 @@ h2 {
 img {
   display:block;
   margin:auto;
-  border: 10px dotted #6C0F27;
+  border: 10px dotted #66532C;
   border-radius: 35px;
   padding: 15px;
 }
@@ -53,7 +53,7 @@ blockquote {
     box-sizing: content-box;
 }
 .btn{
-    background-color: #6C0F27;
+    background-color: #66532C;
     color: #F5DCF2;
     font-size: 16px;
     border-radius: 20px;
@@ -68,7 +68,7 @@ blockquote {
 }
 .btn:hover {
 background-color: snow;
-    color: #6C0F27;
+    color: #66532C;
     font-size: 16px;
     border-radius: 20px;
     border: none;
@@ -87,7 +87,7 @@ a {
         
 }
 a:hover {
-    background-color: #6C0F27;
+    background-color: #66532C;
     font-size: 20px;
     color: #F5DCF2;
     margin: 10px;
@@ -97,11 +97,12 @@ a:hover {
     transform: scale(1.1);
 }
 #poem {
-    background-color: #6C0F27;
+    background-color: #66532C;
     border: none;
     padding: 15px;
     border-radius: 35px;
-    margin-left: 1000px;
+    display: grid;
+    margin-left: 300px;
 }
 div {
     background-color:#F5DCF2;
@@ -110,13 +111,23 @@ div {
     border-radius: 35px;
     margin-top: 30px;
 }
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #66532C;
+}
 #page-title {
-    background-color:#66532C;
     border: none;
     padding: 10px;
     border-radius: 35px;
     margin-left: 200px;
     margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: span 3;
+    grid-row: 1/-1;
 }
 .highlight {
     background-color:snow;
@@ -127,7 +138,7 @@ div {
     margin-right: 150px;
 }
 .btn-2{
-    background-color: #6C0F27;
+    background-color: #66532C;
     color: #F5DCF2;
     font-size: 16px;
     border-radius: 20px;
@@ -142,7 +153,7 @@ div {
 }
 .btn-2:hover {
 background-color: snow;
-    color: #6C0F27;
+    color: #66532C;
     font-size: 16px;
     border-radius: 20px;
     border: none;
@@ -150,11 +161,4 @@ background-color: snow;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     transform: scale(1.1);
-}
-.bottom-row {
-    background-color:#F5DCF2;
-    border: none;
-    padding: 15px;
-    border-radius: 35px;
-    margin-top: 30px;
 }
